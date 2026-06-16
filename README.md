@@ -42,3 +42,9 @@ Links atuais:
 5. Build command: deixe vazio.
 6. Output directory: deixe vazio ou use `./`.
 7. Deploy.
+
+## Observações da versão atual
+
+- A logo do site foi atualizada para a arte correta enviada pelo usuário.
+- O PersonalOS está marcado como **em desenvolvimento** no card da holding e na página individual.
+- Os botões de assinatura do PersonalOS foram desabilitados temporariamente.
