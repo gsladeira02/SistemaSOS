@@ -38,3 +38,11 @@ Site estático da holding SistemaSOS, refeito do zero.
 
 - Logo oficial atualizada com o arquivo enviado pelo usuário.
 - E-mail de contato removido do rodapé.
+
+## Sistemas em desenvolvimento adicionados
+
+- LavaOS — Lava-jato e estética automotiva
+- PetOS — Pet shop / banho e tosa
+- BeautyOS — Procedimentos estéticos
+
+Esses sistemas aparecem na vitrine, possuem páginas individuais e botões desabilitados como “Em desenvolvimento”.
