@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none">
+  <defs>
+    <linearGradient id="g" x1="56" y1="60" x2="256" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff69b4"/>
+      <stop offset="1" stop-color="#ff9bcc"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="360" height="360" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#ff69b4" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect x="60" y="60" width="200" height="200" rx="56" fill="url(#g)" filter="url(#shadow)"/>
+  <g transform="translate(104 104) scale(4.65)" stroke="white" stroke-width="2.9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+    <path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/>
+  </g>
+  <text x="310" y="202" fill="white" font-family="Inter, Arial, sans-serif" font-size="128" font-weight="900" letter-spacing="-6">UnhaOS</text>
+</svg>

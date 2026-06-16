@@ -29,10 +29,10 @@ Site estático da holding SistemaSOS, refeito do zero.
 ## Links atuais de assinatura
 
 - PersonalOS: em desenvolvimento
-- O Feirante: https://ofeirante.com.br
-- UnhaOS: https://unhaos.com.br
-- BellaOS: https://bellaos.com.br
-- NavalhaOS: https://navalhaos.com.br
+- O Feirante: https://o-feirante.vercel.app
+- UnhaOS: https://unha-os.vercel.app
+- BellaOS: https://bella-os.vercel.app
+- NavalhaOS: https://navalha-os.vercel.app
 
 ## Atualização
 

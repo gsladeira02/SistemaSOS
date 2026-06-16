@@ -236,3 +236,68 @@ h1,h2,h3,h4,p { margin-top:0; }
   .metric-grid, .preview-metrics { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; }
 }
+
+
+.system-logo {
+  width: 72px;
+  height: 72px;
+  border-radius: 22px;
+  background: #ffffff;
+  border: 1px solid rgba(20, 27, 45, .10);
+  box-shadow: 0 12px 26px rgba(20,27,45,.08);
+  display: grid;
+  place-items: center;
+  padding: 8px;
+  position: relative;
+  z-index: 1;
+}
+
+.system-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.system-logo-navalhaos {
+  padding: 5px;
+}
+
+.system-logo-o-feirante,
+.system-logo-bellaos,
+.system-logo-unhaos {
+  padding: 9px;
+}
+
+.product-mini-logo {
+  width: 74px;
+  height: 74px;
+  border-radius: 22px;
+  background: #ffffff;
+  border: 1px solid rgba(20, 27, 45, .10);
+  display: grid;
+  place-items: center;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-shadow: 0 12px 26px rgba(20,27,45,.06);
+}
+
+.product-mini-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Mantém contraste da logo oficial em fundos escuros */
+.footer-logo-box,
+.logo-wrap,
+.system-logo,
+.product-mini-logo {
+  background: #ffffff;
+}
+
+@media (max-width: 640px) {
+  .system-logo {
+    width: 64px;
+    height: 64px;
+  }
+}
