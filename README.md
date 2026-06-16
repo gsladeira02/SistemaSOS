@@ -1,54 +1,35 @@
-# SistemaSOS Holding Site
+# SistemaSOS Holding Site — versão refeita
 
-Site estático da holding SistemaSOS.
+Site estático da holding SistemaSOS, refeito do zero.
+
+## O que foi corrigido
+
+- logo preparada com fundo transparente;
+- header redesenhado do zero;
+- rodapé redesenhado com caixa branca para garantir contraste da logo;
+- visual refeito do zero;
+- PersonalOS com faixa “Em desenvolvimento”; 
+- sem WhatsApp;
+- sem checkout central;
+- sem login central obrigatório.
 
 ## Estrutura
 
-- `/` — Página inicial
-- `/sistemas/` — Lista de sistemas
-- `/como-funciona/` — Explicação do fluxo
-- `/sobre/` — Sobre a holding
-- `/faq/` — Dúvidas frequentes
+- `/` — Home
+- `/sistemas/` — Sistemas
+- `/como-funciona/`
+- `/sobre/`
+- `/faq/`
 - `/personalos/`
 - `/o-feirante/`
 - `/unhaos/`
 - `/bellaos/`
 - `/navalhaos/`
 
-## Regras aplicadas
+## Links atuais de assinatura
 
-- Sem botão de WhatsApp
-- Sem checkout central
-- Sem login central obrigatório
-- Botões de assinatura redirecionam para a página própria de cada sistema
-
-## Onde trocar os links de assinatura
-
-Troque os links diretamente nos arquivos HTML gerados ou edite a lista de produtos no script de origem, se for manter uma geração automática.
-
-Links atuais:
-- PersonalOS: https://personalos.com.br
+- PersonalOS: em desenvolvimento
 - O Feirante: https://ofeirante.com.br
 - UnhaOS: https://unhaos.com.br
 - BellaOS: https://bellaos.com.br
 - NavalhaOS: https://navalhaos.com.br
-
-## Subir na Vercel
-
-1. Suba estes arquivos para um repositório no GitHub.
-2. Na Vercel, clique em "Add New Project".
-3. Importe o repositório.
-4. Framework preset: Other.
-5. Build command: deixe vazio.
-6. Output directory: deixe vazio ou use `./`.
-7. Deploy.
-
-## Observações da versão atual
-
-- A logo do site foi atualizada para a arte correta enviada pelo usuário.
-- O PersonalOS está marcado como **em desenvolvimento** no card da holding e na página individual.
-- Os botões de assinatura do PersonalOS foram desabilitados temporariamente.
-
-## Correção de logo
-
-Nesta versão, a logo enviada pelo usuário foi recortada e preparada para uso no header sem o bloco branco excessivo. Também foi criada uma versão própria para o rodapé, preservando a leitura sobre fundo escuro.
