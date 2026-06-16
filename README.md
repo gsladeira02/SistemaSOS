@@ -33,3 +33,8 @@ Site estático da holding SistemaSOS, refeito do zero.
 - UnhaOS: https://unhaos.com.br
 - BellaOS: https://bellaos.com.br
 - NavalhaOS: https://navalhaos.com.br
+
+## Atualização
+
+- Logo oficial atualizada com o arquivo enviado pelo usuário.
+- E-mail de contato removido do rodapé.
