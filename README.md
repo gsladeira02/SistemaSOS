@@ -48,3 +48,7 @@ Links atuais:
 - A logo do site foi atualizada para a arte correta enviada pelo usuário.
 - O PersonalOS está marcado como **em desenvolvimento** no card da holding e na página individual.
 - Os botões de assinatura do PersonalOS foram desabilitados temporariamente.
+
+## Correção de logo
+
+Nesta versão, a logo enviada pelo usuário foi recortada e preparada para uso no header sem o bloco branco excessivo. Também foi criada uma versão própria para o rodapé, preservando a leitura sobre fundo escuro.
