@@ -46,3 +46,51 @@ Site estático da holding SistemaSOS, refeito do zero.
 - BeautyOS — Procedimentos estéticos
 
 Esses sistemas aparecem na vitrine, possuem páginas individuais e botões desabilitados como “Em desenvolvimento”.
+
+
+## Versão estática sem Supabase
+
+Este pacote mantém o SistemaSOS como site estático de holding/vitrine.
+
+Não possui:
+- Supabase;
+- login central;
+- checkout central;
+- painel admin interno;
+- banco de dados.
+
+## Visitas e métricas
+
+O pacote já inclui o script do Vercel Web Analytics para site HTML estático.
+
+Depois do deploy na Vercel:
+
+1. Acesse o projeto na Vercel.
+2. Vá em Analytics.
+3. Ative Web Analytics.
+4. Faça um novo deploy, se a Vercel solicitar.
+5. As visitas passam a aparecer no painel da própria Vercel.
+
+## Sistemas disponíveis
+
+- O Feirante
+- UnhaOS
+- BellaOS
+- NavalhaOS
+
+## Sistemas em desenvolvimento
+
+- PersonalOS
+- LavaOS
+- PetOS
+- BeautyOS
+- e muito mais
+
+## Deploy
+
+Suba o projeto no GitHub e importe na Vercel como site estático.
+
+Configuração sugerida:
+- Framework Preset: Other
+- Build Command: vazio
+- Output Directory: ./
